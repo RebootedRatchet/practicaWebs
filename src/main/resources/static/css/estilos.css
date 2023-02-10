@@ -1,18 +1,18 @@
-/*Este es un archivo para CSS */
+/* Este es un archivo para CSS  */
 
-*{
-   margin: 0; 
-   box-sizing: border-box;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: whitesmoke;
     font-family: sans-serif;
-    padding: 90px 20px 0 0;
+    padding: 80px 20px 0 0;
 }
 
-.header{
-    background-color: #076af0;
+.header {
+    background-color: #000000;
     height: 80px;
     position: fixed;
     top: 0;
@@ -20,46 +20,138 @@ body{
     width: 100%;
 }
 
-.aside{
-    background-color: aqua;
+.aside {
+    background-color: darkgrey;
     position: fixed;
     top: 80px;
     left: 0;
-    bottom: 20px;
-    width: 20%
+    bottom: 10px;
+    width: 15%;
 }
 
-.contenido{
-    background-color: antiquewhite;
-    position: fixed;
+.contenido {
+    background-color: blue;
+    position: static;
     top: 80px;
-    left: 20%;
+    right: 0;
     bottom: 20px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
-.footer{
+.footer {
     background-color: black;
     color: white;
     text-align: center;
-    position: fixed;
+    position: left;    
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-p{
-   color: greenyellow;
+p {
+    color: green;
 }
 
-aricle p{
-   color: blue;
+article p {
+    color: blue;
 }
 
 #noticia {
     color: brown;
 }
 
-.titulo{
-    color: blueviolet;
+.titulo {
+    color: white;   
+    font-size: 40px;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right
+}
+
+tbody tr:nth-child(odd) {
+    background-color: green
+}
+
+tbody tr:nth-child(even) {
+    background-color: white
+}
+
+/* Comienza la definición del menú */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+   text-align: left;
+}
+
+
+
+
+
+.describe {
+font-size: 40px;
+align: absmiddle;
+color: white;
+}
+
+.blanco {
+color: white;
+}
+
+.caption {
+color: white;
+font-size: 22px;
+}
+
+.link-fort {
+color: white;
+font-size: 20px;
+font-style: bold;
+}
+
+.tituloMediano {
+font-size: 20px;
+color: white;
 }
